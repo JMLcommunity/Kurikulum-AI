@@ -4,8 +4,6 @@
 + [Apa dan Kenapa Machine Learning](#)
 + [Statistika Dasar](#)
 + [Kalkulus dan Aljabar Dasar](#)
-+ [Kenapa Python](#)
-+ [Pengenalan Scikit-Learn](#)
 + [Development Workflow pada Machine Learning](#)
 + [Metric](#)
 
@@ -19,7 +17,7 @@
 + [Pengenalan Supervised Learning](#)
 + [Algoritma Supervised Learning](#)
   + [kNN](#)
-  [Contoh codes](https://github.com/JMLcommunity/Kurikulum-AI/tree/master/Classification/K-Nearest%20Neighbors%20(K-NN))
+  ++ Contoh: [kNN codes](https://github.com/JMLcommunity/Kurikulum-AI/tree/master/Classification/K-Nearest%20Neighbors%20(K-NN))
   + [Regresi Linear dan Logistik](#)
   + [Naive Bayes](#)
   + [Kernelized Support Vector Machine](#)

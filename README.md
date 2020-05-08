@@ -66,6 +66,9 @@
 
 ## Chapter 13 Abstract Reasoning
 
+## Chapter 14 Big Data & Machine Leanring in Cloud
++ [Big Data dengan AWS](#)
+
 ## BONUS
 + [Menggunakan R dalam Python](https://github.com/louisowen6/RPy2)
 + [Instant Data Report dengan Data Explorer](https://github.com/louisowen6/Instant_Data_Report)

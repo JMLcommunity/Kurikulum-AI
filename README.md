@@ -67,7 +67,7 @@
 ## Chapter 13 Abstract Reasoning
 
 ## Chapter 14 Big Data & Machine Leanring in Cloud
-+ [Big Data dengan AWS](#)
++ [Big Data dengan AWS](https://github.com/JMLcommunity/Kurikulum-AI/blob/master/Cloud/README_AWS.md)
 
 ## BONUS
 + [Menggunakan R dalam Python](https://github.com/louisowen6/RPy2)

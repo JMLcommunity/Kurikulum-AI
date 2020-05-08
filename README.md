@@ -49,6 +49,7 @@
 ## Chapter 8 Analisis Time Series
 
 ## Chapter 9 Pengolahan Gambar
++ [Dasar Pengolahan Gambar](https://piratefsh.github.io/image-processing-101/)
 + [Klasifikasi Gambar](#)
 + [Segmentasi Objek](#)
 + [Deteksi Objek dan Teks](#)

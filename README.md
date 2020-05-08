@@ -19,6 +19,7 @@
 + [Pengenalan Supervised Learning](#)
 + [Algoritma Supervised Learning](#)
   + [kNN](#)
+  [Contoh codes](https://github.com/JMLcommunity/Kurikulum-AI/tree/master/Classification/K-Nearest%20Neighbors%20(K-NN))
   + [Regresi Linear dan Logistik](#)
   + [Naive Bayes](#)
   + [Kernelized Support Vector Machine](#)

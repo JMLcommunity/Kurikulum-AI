@@ -49,14 +49,10 @@
 + [Time Series Cross Validation](#)
 
 ## Chapter 6 Tuning Parameter Model
-+ [Grid Search](#)
-+ [Bayesian Optimizer](#)
-+ [Ray Tune](https://docs.ray.io/en/ray-0.3.1/tune.html)
-+ AutoML 
-  + [Apa itu AutoML?](https://towardsdatascience.com/whats-auto-ml-b457d2710f9d)
-  + [H2O AutoML](http://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html)
-  + [Auto-Sklearn](https://automl.github.io/auto-sklearn/master/)
-  + [Auto-Keras](https://autokeras.com/)
++ [1. Grid Search](#)
++ [2. Bayesian Optimizer](#)
++ [3. Ray Tune](#ray-tune)
++ [4. AutoML](#automl)
 
 ## Chapter 7 Deployment / Membuat Web Application
 + Membuat Web Application dengan Streamlit [[1]](https://towardsdatascience.com/quickly-build-and-deploy-an-application-with-streamlit-988ca08c7e83) [[2]](https://towardsdatascience.com/streamlit-101-an-in-depth-introduction-fc8aad9492f2) [[3]](https://towardsdatascience.com/how-to-deploy-a-streamlit-app-using-an-amazon-free-ec2-instance-416a41f69dc3)
@@ -83,8 +79,20 @@
 ## Chapter 14 Big Data & Machine Leanring in Cloud
 + [Big Data dengan AWS](https://github.com/JMLcommunity/Kurikulum-AI/blob/master/Cloud/README_AWS.md)
 
-## BONUS
-+ [Menggunakan R dalam Python](https://github.com/louisowen6/RPy2)
-+ [Instant Data Report dengan Data Explorer](https://github.com/louisowen6/Instant_Data_Report)
+## [BONUS](#bonus)
 
 ### Apa dan Kenapa Machine Learning
+
+### Ray Tune
+Dokumen Tentang Ray Tune
+[See](https://docs.ray.io/en/ray-0.3.1/tune.html)
+
+### AutoML 
++ [Apa itu AutoML?](https://towardsdatascience.com/whats-auto-ml-b457d2710f9d)
++ [H2O AutoML](http://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html)
++ [Auto-Sklearn](https://automl.github.io/auto-sklearn/master/)
++ [Auto-Keras](https://autokeras.com/)
+
+### Bonus
++ [Menggunakan R dalam Python](https://github.com/louisowen6/RPy2)
++ [Instant Data Report dengan Data Explorer](https://github.com/louisowen6/Instant_Data_Report) 

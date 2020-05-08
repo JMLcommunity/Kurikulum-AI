@@ -37,12 +37,26 @@
   + [DBSCAN dan HDBSCAN](#)
   + [Gaussian Mixture Model untuk Clustering](#)
 
+## Chapter 5 Membuat Model - Deep Learning
++ [Multi-layer Perceptron](#)
++ [Convolutional Neural Network](#)
++ [Recurrent Neural Network](#)
++ [Long Short-Term Memory Network](#)
+
 ## Chapter 5 Metode Evaluasi Model Lainnya
 + [k-Fold Cross Validation](#)
++ [Stratified k-Fold Cross Validation](#)
++ [Time Series Cross Validation](#)
 
 ## Chapter 6 Tuning Parameter Model
 + [Grid Search](#)
 + [Bayesian Optimizer](#)
++ [Ray Tune](https://docs.ray.io/en/ray-0.3.1/tune.html)
++ AutoML 
+  + [Apa itu AutoML?](https://towardsdatascience.com/whats-auto-ml-b457d2710f9d)
+  + [H2O AutoML](http://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html)
+  + [Auto-Sklearn](https://automl.github.io/auto-sklearn/master/)
+  + [Auto-Keras](https://autokeras.com/)
 
 ## Chapter 7 Deployment / Membuat Web Application
 + Membuat Web Application dengan Streamlit [[1]](https://towardsdatascience.com/quickly-build-and-deploy-an-application-with-streamlit-988ca08c7e83) [[2]](https://towardsdatascience.com/streamlit-101-an-in-depth-introduction-fc8aad9492f2) [[3]](https://towardsdatascience.com/how-to-deploy-a-streamlit-app-using-an-amazon-free-ec2-instance-416a41f69dc3)

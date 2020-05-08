@@ -1,7 +1,7 @@
 # Kurikulum Pembelajaran AI
 
 ## Chapter 1 Intro
-+ [Apa dan Kenapa Machine Learning](#apa-kenapa-machine-learning)
++ [Apa dan Kenapa Machine Learning](#apa-dan-kenapa-machine-learning)
 + [Statistika Dasar](#)
 + [Kalkulus dan Aljabar Dasar](#)
 + [Kenapa Python](#)

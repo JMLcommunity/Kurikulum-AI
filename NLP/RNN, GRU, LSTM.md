@@ -1,14 +1,18 @@
 # RNN, GRU, dan LSTM
 
-<div style = "text-align: justify ; line-height: 1.75 em"><b>RNN</b> adalah modifikasi dari <i>feedforward neural network</i> yang mempunyai <b>memori internal</b> dan memori ini akan <b>dipanggil</b> dalam proses </i>training</i> di <b>neuron <i>input</i> selanjutnya</b>. Ini menyebabkan struktur RNN cocok digunakan dalam pengolahan data berupa <b><i>sequence</i></b> seperti kalimat atau <i>time series</i>. Perhatikan skema di bawah (dari <a src = "http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-2-implementing-a-language-model-rnn-with-python-numpy-and-theano/">situs ini</a>).<br>
+<div style = "text-align: justify ; line-height: 1.75 em"><b>RNN</b> adalah modifikasi dari <i>feedforward neural network</i> yang mempunyai <b>memori internal</b> dan memori ini akan <b>dipanggil</b> dalam proses </i>training</i> di <b>neuron <i>input</i> selanjutnya</b>. Ini menyebabkan struktur RNN cocok digunakan dalam pengolahan data berupa <b><i>sequence</i></b> seperti kalimat atau <i>time series</i>. Perhatikan skema di bawah (dari [situs ini](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-2-implementing-a-language-model-rnn-with-python-numpy-and-theano/)).<br>
 <br>
 <center><img src = "http://www.wildml.com/wp-content/uploads/2015/09/rnn.jpg" height = "125" width = "500"></center>
 <br>
 Perhatikan bahwa X<sub>t</sub> dan s<sub>t-1</sub> akan menjadi input untuk menghasilkan s<sub>t</sub> dan seterusnya atau dapat dituliskan s<sub>t</sub> = f(Ws<sub>t-1</sub>,Ux<sub>t</sub>). Selanjutnya f bisa berupa fungsi aktivasi apapun misalkan tanh, sigmoid, atau ReLU dan neuron <i>output</i> pada saat t dapat dituliskan (misalkan fungsi yang dipakai adalah softmax) dalam o_pred<sub>t</sub> = softmax(Vs<sub>t</sub>).<br>
 RNN mempunyai beberapa kekurangan diantaranya adalah <i>vanishing gradient problem</i>. Ini dapat diilustrasikan sebagai berikut.<br>
 Misalkan </i>loss function</i> yang digunakan adalah <i>cross entropy</i> sehingga dapat dituliskan dalam bentuk <br>
-E<sub>t</sub> = -o<sub>t</sub> $\log$ o_pred<sub>t</sub><br>
-E = $\Sigma_t$-o<sub>t</sub> $\log$ o_pred<sub>t</sub><br>
+<br>
+<math>
+E<sub>t</sub> = -o<sub>t</sub> log o_pred<sub>t</sub><br>
+E = &sum;<sub>t</sub>-o<sub>t</sub> log o_pred<sub>t</sub><br>
+</math>
+<br>
 Tujuan kita adalah mencari gradien (turunan) dari <i>loss function</i> terhadap U,V, dan W sehingga didapat U, V, dan W paling baik. Perhatikan bahwa saat kita ingin mencari W paling optimal maka haruslah dicari
 <br>
 <br>
@@ -32,7 +36,7 @@ Jadi kita harus mencari gradien dari fungsi tanh untuk setiap <i>time stamp</i> 
 <br>
 <center><img src = "https://nn.readthedocs.io/en/rtd/image/tanh.png" height= "450" width = "450"></center><br>
 dapat diambil kesimpulan bahwa semakin besar atau kecil input dari fungsi tanh maka hasilnya akan mendekati 1 atau -1 sehingga gradiennya mendekati 0. Maka <b>semakin jauh jarak suatu s dari s<sub>t</sub> (belum dikenai fungsi tanh berkali-kali), hasil perkalian turunan s terhadap semua s sebelumnya mendekati nol sehingga kontribusi input di suatu neuron yang jaraknya jauh tersebut untuk keseluruhan gradien <i>loss function</i> terhadap W dapat diabaikan</b>. Artinya, kita tidak akan bisa menentukan <i>output</i> berdasarkan <i>input</i> yang diingat untuk jangka waktu yang panjang.<br>
-Untuk mengatasi hal ini maka dikembangkanlah <i>Long Short Term Memory</i> (LSTM) dan <i>Gated Recurrent Unit</i> (GRU). LSTM mempunyai arsitektur yang bisa menyeleksi mana memori lama yang bisa ditambahkan, mana yang harus dilupakan, dan mana yang bisa ditambahkan ke memori selanjutnya. Berikut adalah arsitektur dari LSTM (diambil dari <a src = "http://colah.github.io/posts/2015-08-Understanding-LSTMs/">sini</a>)
+Untuk mengatasi hal ini maka dikembangkanlah <i>Long Short Term Memory</i> (LSTM) dan <i>Gated Recurrent Unit</i> (GRU). LSTM mempunyai arsitektur yang bisa menyeleksi mana memori lama yang bisa ditambahkan, mana yang harus dilupakan, dan mana yang bisa ditambahkan ke memori selanjutnya. Berikut adalah arsitektur dari LSTM (diambil dari [sini](http://colah.github.io/posts/2015-08-Understanding-LSTMs/))
 <br>
 <br>
 <center><img src = "http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-chain.png" height = "200" width = "500"></center>

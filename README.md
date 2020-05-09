@@ -85,6 +85,8 @@
 ## Chapter 12 Pengolahan Sinyal
 
 ## Chapter 13 Reinforcement Learning
++ [Q-Learning](https://github.com/JMLcommunity/Kurikulum-AI/blob/master/Reinforcement%20Learning/Q-Learning.md)
++ [Deep Q-Learning](https://github.com/JMLcommunity/Kurikulum-AI/blob/master/Reinforcement%20Learning/Deep%20Q-Learning.md)
 
 ## Chapter 14 Abstract Reasoning
 

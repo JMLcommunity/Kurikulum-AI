@@ -7,7 +7,7 @@ Misal kita mempunyai data teks berupa dua kalimat yaitu
 
 "They slither while they pass, they slipp away across the universe"
 
-(diambil dari [artikel ini]("https://towardsdatascience.com/your-guide-to-natural-language-processing-nlp-48ea2511f6e1")).
+(diambil dari [artikel ini](https://towardsdatascience.com/your-guide-to-natural-language-processing-nlp-48ea2511f6e1)).
 
 Maka untuk melakukan NLP pertama kita harus melakukan preprocessing teks dengan langkah-langkah sebagai berikut.
 
@@ -27,6 +27,7 @@ Proses ini dilakukan untuk **menjadikan kata-kata yang mempunyai "*root*" yang s
 
 ## Membuat Word Embedding
 *Word Embedding* adalah vektor repsentasi dari setiap kata pada data teks (yang biasanya sudah di*stemming* atau di*lemmatisasi*). Beberapa teknik untuk melakukan mendapatkan *Word Embedding* adalah sebagai berikut : <br>
+
 + Bag of Words (BoW)<br>
 
   Ini adalah *Word Embedding* paling sederhana yaitu menghitung **frekuensi kemunculan setiap kata dalam sebuah teks**. Lihat contoh di bawah.
@@ -37,10 +38,12 @@ Proses ini dilakukan untuk **menjadikan kata-kata yang mempunyai "*root*" yang s
 Teknik ini punya kelemahan : <b>tidak bisa memahami konteks</b>
 <br>
 <br>
-+ <b>Terms Frequency-Inverse Document Frequency</b> (TF-IDF)<br>
 
-  Teknik ini berusaha untuk memberi bobot pada tiap kata yang muncul. Terdapat dua proses yaitu *Term Frequency* (TF) dan *Inverse Document Frequency* (IDF). **TF adalah teknik untuk menghitung banyaknya kata di satu teks tertentu** (semakin banyak jumlahnya semakin besar TF / bobotnya), sementara **IDF akan mendiskon bobot dari TF bila kata tersebut muncul berkali-kali di teks lainnya** (lanjutkan baca [di sini]("https://informatikalogi.com/term-weighting-tf-idf/"))<br>
++ Terms Frequency-Inverse Document Frequency (TF-IDF)<br>
+
+  Teknik ini berusaha untuk memberi bobot pada tiap kata yang muncul. Terdapat dua proses yaitu *Term Frequency* (TF) dan *Inverse Document Frequency* (IDF). **TF adalah teknik untuk menghitung banyaknya kata di satu teks tertentu** (semakin banyak jumlahnya semakin besar TF / bobotnya), sementara **IDF akan mendiskon bobot dari TF bila kata tersebut muncul berkali-kali di teks lainnya** (lanjutkan baca [di sini](https://informatikalogi.com/term-weighting-tf-idf/))<br>
 <br>
+
 + Word2Vec<br>
 
-  Lebih lengkap tentang teori Word2Vec bisa dibaca [di sini]("https://towardsdatascience.com/introduction-to-word-embedding-and-word2vec-652d0c2060fa")
+  Lebih lengkap tentang teori Word2Vec bisa dibaca [di sini](https://towardsdatascience.com/introduction-to-word-embedding-and-word2vec-652d0c2060fa)

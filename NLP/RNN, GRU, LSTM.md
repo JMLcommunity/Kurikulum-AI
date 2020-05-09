@@ -1,6 +1,7 @@
 # RNN, GRU, dan LSTM
 
-<div style = "text-align: justify ; line-height: 1.75 em"><b>RNN</b> adalah modifikasi dari <i>feedforward neural network</i> yang mempunyai <b>memori internal</b> dan memori ini akan <b>dipanggil</b> dalam proses </i>training</i> di <b>neuron <i>input</i> selanjutnya</b>. Ini menyebabkan struktur RNN cocok digunakan dalam pengolahan data berupa <b><i>sequence</i></b> seperti kalimat atau <i>time series</i>. Perhatikan skema di bawah (dari [situs ini](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-2-implementing-a-language-model-rnn-with-python-numpy-and-theano/)).<br>
+<div style = "text-align: justify ; line-height: 1.75 em"><b>RNN</b> adalah modifikasi dari <i>feedforward neural network</i> yang mempunyai <b>memori internal</b> dan memori ini akan <b>dipanggil</b> dalam proses </i>training</i> di <b>neuron <i>input</i> selanjutnya</b>. Ini menyebabkan struktur RNN cocok digunakan dalam pengolahan data berupa <b><i>sequence</i></b> seperti kalimat atau <i>time series</i>. Perhatikan skema di bawah (dari http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-2-implementing-a-language-model-rnn-with-python-numpy-and-theano/).
+<br>
 <br>
 <center><img src = "http://www.wildml.com/wp-content/uploads/2015/09/rnn.jpg" height = "125" width = "500"></center>
 <br>
@@ -36,7 +37,7 @@ Jadi kita harus mencari gradien dari fungsi tanh untuk setiap <i>time stamp</i> 
 <br>
 <center><img src = "https://nn.readthedocs.io/en/rtd/image/tanh.png" height= "450" width = "450"></center><br>
 dapat diambil kesimpulan bahwa semakin besar atau kecil input dari fungsi tanh maka hasilnya akan mendekati 1 atau -1 sehingga gradiennya mendekati 0. Maka <b>semakin jauh jarak suatu s dari s<sub>t</sub> (belum dikenai fungsi tanh berkali-kali), hasil perkalian turunan s terhadap semua s sebelumnya mendekati nol sehingga kontribusi input di suatu neuron yang jaraknya jauh tersebut untuk keseluruhan gradien <i>loss function</i> terhadap W dapat diabaikan</b>. Artinya, kita tidak akan bisa menentukan <i>output</i> berdasarkan <i>input</i> yang diingat untuk jangka waktu yang panjang.<br>
-Untuk mengatasi hal ini maka dikembangkanlah <i>Long Short Term Memory</i> (LSTM) dan <i>Gated Recurrent Unit</i> (GRU). LSTM mempunyai arsitektur yang bisa menyeleksi mana memori lama yang bisa ditambahkan, mana yang harus dilupakan, dan mana yang bisa ditambahkan ke memori selanjutnya. Berikut adalah arsitektur dari LSTM (diambil dari [sini](http://colah.github.io/posts/2015-08-Understanding-LSTMs/))
+Untuk mengatasi hal ini maka dikembangkanlah <i>Long Short Term Memory</i> (LSTM) dan <i>Gated Recurrent Unit</i> (GRU). LSTM mempunyai arsitektur yang bisa menyeleksi mana memori lama yang bisa ditambahkan, mana yang harus dilupakan, dan mana yang bisa ditambahkan ke memori selanjutnya. Berikut adalah arsitektur dari LSTM (diambil [dari sini](http://colah.github.io/posts/2015-08-Understanding-LSTMs/))
 <br>
 <br>
 <center><img src = "http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-chain.png" height = "200" width = "500"></center>

@@ -35,7 +35,7 @@ Untuk lebih lengkapnya perhatikan ilustrasi di bawah (diambil dari <a src = "htt
 <img src = "http://jalammar.github.io/images/t/transformer_decoding_1.gif" height = "450" width = "500">
 <br>
 <br>
-<img src = "http://jalammar.github.io/images/t/transformer_decoding_2.gif" height = "450" width = "500">
+<img src = "http://jalammar.github.io/images/t/transformer_decoding_2.gif" height = "400" width = "450">
 <br>
 <br>
 Ternyata <b>Transformer</b> pun masih punya beberapa <b>kelemahan</b> dikarenakan <b>inputnya yang berupa <i>word embedding</i></b>. Kelemahan pertama adalah tidak bisa mempelajari konteks dari kata-kata tetangganya. Sementara kelemahan kedua adalah dibutuhkannya sebuah model yang general dapat dipakai untuk segala tipe kasus NLP seperti pada kasus di sini, penilaian Q&A. Maka dari itu dibuatlah sebuah <b>teknik <i>training</i></b> berbeda namun tetap menggunakan prinsip arsitektur Transformer yang dinamakan dengan BERT.<br>

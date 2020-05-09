@@ -5,7 +5,7 @@
 + [Statistika Dasar](#)
 + [Kalkulus dan Aljabar Dasar](#)
 + [Development Workflow pada Machine Learning](#)
-+ [Metric](#)
++ [Metrics](#)
 
 ## Chapter 2 Mempersiapkan Data dan Exploratory Data Analysis
 + [Macam-Macam Plot dan Use Case-nya](#)
@@ -78,7 +78,7 @@
 + [Preprocessing Data untuk NLP](https://github.com/JMLcommunity/Kurikulum-AI/blob/master/NLP/Preprocessing%20NLP.md)
 + [Pemodelan pada NLP](https://github.com/JMLcommunity/Kurikulum-AI/tree/master/NLP)
   + [RNN, GRU, dan LSTM](https://github.com/JMLcommunity/Kurikulum-AI/blob/master/NLP/RNN%2C%20GRU%2C%20LSTM.md)
-  + [BERT](https://github.com/JMLcommunity/Kurikulum-AI/blob/master/NLP/BERT.md)
+  + [Transformer dan BERT](https://github.com/JMLcommunity/Kurikulum-AI/blob/master/NLP/BERT.md)
 + [Resources untuk NLP Bahasa Indonesia](https://github.com/louisowen6/NLP_bahasa_resources)
 + Aplikasi: [Prediksi Harga Saham berdasarkan Harga Historis Saham dan Analisis Sentimen](https://github.com/louisowen6/SENN)
 

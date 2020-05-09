@@ -50,7 +50,7 @@
 + [Grid Search](#)
 + [Bayesian Optimizer](#)
 + [Ray Tune](https://docs.ray.io/en/ray-0.3.1/tune.html)
-+ AutoML 
++ AutoML
   + [Apa itu AutoML?](https://towardsdatascience.com/whats-auto-ml-b457d2710f9d)
   + [H2O AutoML](http://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html)
   + [Auto-Sklearn](https://automl.github.io/auto-sklearn/master/)
@@ -68,7 +68,11 @@
 + Deteksi Objek dan Teks [[1]](https://heartbeat.fritz.ai/introduction-to-basic-object-detection-algorithms-b77295a95a63?gi=8b32ac2b1e0e) [[2]](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e) [[3]](https://www.learnopencv.com/histogram-of-oriented-gradients/) [[4]](https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/)
 + Aplikasi: [Membangun Mesin Pencari Gambar](https://www.pyimagesearch.com/2014/01/27/hobbits-and-histograms-a-how-to-guide-to-building-your-first-image-search-engine-in-python/), [Membangun Mosaic Image Generator](https://github.com/louisowen6/Mosaic_Image)
 
-## Chapter 11 Pengolahan Teks
+## Chapter 11 Pengolahan Teks (NLP)
++ [Preprocessing Data untuk NLP]()
++ [Pemodelan pada NLP]()
+  + [RNN, GRU, dan LSTM]()
+  + [BERT]()
 + [Resources untuk NLP Bahasa Indonesia](https://github.com/louisowen6/NLP_bahasa_resources)
 + Aplikasi: [Prediksi Harga Saham berdasarkan Harga Historis Saham dan Analisis Sentimen](https://github.com/louisowen6/SENN)
 
@@ -84,4 +88,3 @@
 ## BONUS
 + [Menggunakan R dalam Python](https://github.com/louisowen6/RPy2)
 + [Instant Data Report dengan Data Explorer](https://github.com/louisowen6/Instant_Data_Report)
-

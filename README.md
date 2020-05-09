@@ -69,10 +69,10 @@
 + Aplikasi: [Membangun Mesin Pencari Gambar](https://www.pyimagesearch.com/2014/01/27/hobbits-and-histograms-a-how-to-guide-to-building-your-first-image-search-engine-in-python/), [Membangun Mosaic Image Generator](https://github.com/louisowen6/Mosaic_Image)
 
 ## Chapter 11 Pengolahan Teks (NLP)
-+ [Preprocessing Data untuk NLP]()
-+ [Pemodelan pada NLP]()
-  + [RNN, GRU, dan LSTM]()
-  + [BERT]()
++ [Preprocessing Data untuk NLP](https://github.com/JMLcommunity/Kurikulum-AI/blob/master/NLP/Preprocessing%20NLP.md)
++ [Pemodelan pada NLP](https://github.com/JMLcommunity/Kurikulum-AI/tree/master/NLP)
+  + [RNN, GRU, dan LSTM](https://github.com/JMLcommunity/Kurikulum-AI/blob/master/NLP/RNN%2C%20GRU%2C%20LSTM.md)
+  + [BERT](https://github.com/JMLcommunity/Kurikulum-AI/blob/master/NLP/BERT.md)
 + [Resources untuk NLP Bahasa Indonesia](https://github.com/louisowen6/NLP_bahasa_resources)
 + Aplikasi: [Prediksi Harga Saham berdasarkan Harga Historis Saham dan Analisis Sentimen](https://github.com/louisowen6/SENN)
 

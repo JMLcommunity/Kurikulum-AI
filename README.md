@@ -16,7 +16,7 @@
 ## Chapter 3 Membuat Model – Supervised Learning
 + [Pengenalan Supervised Learning](#)
 + [Algoritma Supervised Learning](#)
-  + [kNN](#)[codes](https://github.com/JMLcommunity/Kurikulum-AI/tree/master/Classification/K-Nearest%20Neighbors%20(K-NN))
+  + [kNN](#)
   + [Regresi Linear dan Logistik](#)
   + [Naive Bayes](#)
   + [Kernelized Support Vector Machine](#)

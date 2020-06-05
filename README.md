@@ -94,6 +94,7 @@
 + [Deep Q-Learning](https://github.com/JMLcommunity/Kurikulum-AI/blob/master/Reinforcement%20Learning/Deep%20Q-Learning.md)
 
 ## Chapter 14 Abstract Reasoning
++ [Automata Selular untuk Penalaran Abstrak](https://www.kaggle.com/arsenynerinovsky/cellular-automata-as-a-language-for-reasoning)
 
 ## Chapter 15 Big Data & Machine Leanring in Cloud
 + [Big Data dengan AWS](https://github.com/JMLcommunity/Kurikulum-AI/blob/master/Cloud/README_AWS.md)

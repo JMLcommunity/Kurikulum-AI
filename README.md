@@ -83,17 +83,20 @@
 + Aplikasi: [Prediksi Harga Saham berdasarkan Harga Historis Saham dan Analisis Sentimen](https://github.com/louisowen6/SENN)
 
 ## Chapter 12 Pengolahan Sinyal
+
 +Dekomposisi Sinyal[[1]](https://github.com/shaharpit809/Machine-Learning-for-Signal-Processing)
 +Transformasi Fourier[[2]](https://github.com/shaharpit809/Machine-Learning-for-Signal-Processing)
 +Metode lainnya[[3]](https://github.com/shaharpit809/Machine-Learning-for-Signal-Processing)
 +Penggunaan CNN 1 Dimensi untuk Pengolahan Sinyal[[4]](https://github.com/Gruschtel/1D-CNN)
 +Penggunaan RNN untuk Pengolahan Sinyal[[5]](https://github.com/diku-dk/rnn-tutorial)
 
+
 ## Chapter 13 Reinforcement Learning
 + [Q-Learning](https://github.com/JMLcommunity/Kurikulum-AI/blob/master/Reinforcement%20Learning/Q-Learning.md)
 + [Deep Q-Learning](https://github.com/JMLcommunity/Kurikulum-AI/blob/master/Reinforcement%20Learning/Deep%20Q-Learning.md)
 
 ## Chapter 14 Abstract Reasoning
++ [Automata Selular untuk Penalaran Abstrak](https://www.kaggle.com/arsenynerinovsky/cellular-automata-as-a-language-for-reasoning)
 
 ## Chapter 15 Big Data & Machine Leanring in Cloud
 + [Big Data dengan AWS](https://github.com/JMLcommunity/Kurikulum-AI/blob/master/Cloud/README_AWS.md)
